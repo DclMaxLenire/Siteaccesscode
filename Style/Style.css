@@ -65,70 +65,70 @@
     height:480px;
 }
   .titre2 {
-    margin-bottom:100px;
+    margin-bottom:80px;
     margin-top:25px;
 }
   .partie4 {
-    float:right;
-    padding-right:100px;
-    padding-top:50px;
+    display:flex;
+    flex-direction:row;
+}
+ .Paragraphe1 {
+    padding-left:50px;
+    padding-top:60px;
 }
   .LogoNumérique {
-    padding-right:25px;
+    margin:auto;
+    padding:auto;
 }
-  .Paragraphe1 {
-    float:left;
-    text-align:center;
-    padding-top:80px;
-    padding-left:80px;
+  .partie5 {
+    text-align:left;
+    padding-right:150px;
+    padding-top:25px;
 }
   .Liste2  {
-    text-align:left; 
+    margin-top:25px;
 }
         /* Deuxième Parties */
-  .partie5 {
+  .partie6 {
     background-image:url("image/fond3.png");
     height:450px;
     text-align:center;
+    color:white;
 }
-  .partie6 {
+  .partie7 {
     display:flex;
+    flex-direction:row;    
+    align-content:center;
     padding-left:250px;
-    margin:20px;
+    padding-bottom:25px;
+    padding-top:60px;
+    
 }
-  .Logo1 {
-    margin-right:40px;
-    padding-left:25px;
-}
-  .partie7{
+.partie8 {
     display:flex;
-    padding:auto;
-    margin-left:250px;
+    flex-direction:row;
     color:white;
     text-align:center;
-    font-size:10px;      
+    font-size:10px;   
+   padding-left:260px;
 }
         /* Troisème Parties */
-  .partie8 {
+  .partie9 {
     background-image:url("image/fond4.png");
     width:100%;
     height:565px;
 }
-  .titre3 {
-    padding-right:725px;
-    padding-top:50px;
-    color:white;
-}
-  .partie9 {
+.partie10 {
+    display:flex;
+    flex-direction:column;
     text-align:left;
+    padding-top:50px;
     padding-left:250px;
-    padding-top:100px;
-    color:white;
 }
-  .titre4 {
-    color:white;
+.titre3 {
+      padding-bottom:50px;
 }
-  .partie10 {
+  .partie11 {
     padding-top:50px;
 }
   .lienjeminscris {
@@ -138,8 +138,8 @@
     padding:10px 25px 10px 25px;
     margin-bottom:50px;
 }
-        /* Quatrième Parties*/
-.partie11 {
+        /* Quatrième Parties */
+.partie12 {
     background-image:url("image/fond2.png");
     height:450px;
 }
@@ -149,23 +149,25 @@
        margin-right:50px;
        padding-left:150px;
 }
-.partie12 {
+.partie13 {
             text-align:left;
             padding-top:25px;
+            color:black;
 }
 .titre5 {
             padding-bottom:80px;
+            
 }
 .Paragraphe2 {
             padding-bottom:25px;
 }
-
-
-
-
-
-
-
+        /* Cinquième Parties */
+.partie14 {
+    background-image:url("image/fond6.png");
+    width:100%;
+    height:300px;
+    font-size:30px;
+    padding-top:200px;
 
 
 
@@ -203,24 +205,18 @@
 
 /*
 .partie {
-    background-image:url("image/fond6.png");
-    width:100%;
-    height:295px;
-}
-
-.partie8 {
     background-image:url("image/fond7.png");
     width:100%;
     height:838px;
 }
 
-.partie9 {
+.partie {
     background-image:url("image/fond8.png");
     width:100%;
     height:605px;
 }
 
-.partie10{
+.partie{
     background-image:url("image/fond9.png");
     width:100%;
     height:800px;
