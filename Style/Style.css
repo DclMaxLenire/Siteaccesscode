@@ -59,76 +59,80 @@
     color:white;
 }   
         /* Première Partie */
-  .partie3 {
-    text-align:center;
+  .section1 {
     background-image:url("image/fond2.png");
     height:480px;
 }
   .titre2 {
-    margin-bottom:80px;
-    margin-top:25px;
+    text-align:center;
 }
   .partie4 {
     display:flex;
-    flex-direction:row;
+    padding-left:285px;
+    padding-top:125px;
 }
- .Paragraphe1 {
-    padding-left:50px;
-    padding-top:60px;
+  .Paragraphe1 {
+    padding-top:80px;
+
 }
-  .LogoNumérique {
-    margin:auto;
-    padding:auto;
-}
-  .partie5 {
-    text-align:left;
-    padding-right:150px;
+
+  .partie7 {
     padding-top:25px;
+    padding-left:25px;
 }
   .Liste2  {
-    margin-top:25px;
+    padding-top:25px;
+
 }
         /* Deuxième Parties */
-  .partie6 {
+  .section2 {
     background-image:url("image/fond3.png");
     height:450px;
-    text-align:center;
-    color:white;
 }
-  .partie7 {
+.titre3 {
+        text-align:center;
+        color:white;
+        padding-top:50px;
+}
+  .partie8 {
     display:flex;
-    flex-direction:row;    
-    align-content:center;
-    padding-left:250px;
-    padding-bottom:25px;
-    padding-top:60px;
-    
+    flex-direction:column;
+    padding-left:450px;
 }
-.partie8 {
+.partie9 {
     display:flex;
     flex-direction:row;
-    color:white;
-    text-align:center;
-    font-size:10px;   
-   padding-left:260px;
+    justify-content:space-around;
+    padding-right:400px;
+    padding-top:125px;
+        
 }
-        /* Troisème Parties */
-  .partie9 {
+.partie10 {
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+    justify-content:space-around;
+    padding-right:350px;
+    color:white;
+}
+
+          /* Troisème Parties */
+  .section3 {
     background-image:url("image/fond4.png");
     width:100%;
     height:565px;
 }
-.partie10 {
+.partie11 {
     display:flex;
     flex-direction:column;
     text-align:left;
     padding-top:50px;
     padding-left:250px;
 }
-.titre3 {
+.titre4 {
       padding-bottom:50px;
 }
-  .partie11 {
+  .partie12 {
     padding-top:50px;
 }
   .lienjeminscris {
@@ -139,7 +143,7 @@
     margin-bottom:50px;
 }
         /* Quatrième Parties */
-.partie12 {
+.section4 {
     background-image:url("image/fond2.png");
     height:450px;
 }
@@ -162,90 +166,109 @@
             padding-bottom:25px;
 }
         /* Cinquième Parties */
-.partie14 {
+.section5 {
     background-image:url("image/fond6.png");
     width:100%;
     height:300px;
-    font-size:30px;
-    padding-top:200px;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.partie {
-    background-image:url("image/fond7.png");
-    width:100%;
-    height:838px;
 }
-
-.partie {
+.partie14 {
+        text-align:center;
+        color:white;
+        font-size:30px;
+        padding-top:100px;
+}
+        /* Sixième Parties */
+.section6 {
+    background-image:url("image/fond2.png");
+    height:830px;
+}
+.titre6 {
+        color:black;
+        text-align:left;
+        padding-bottom:50px;
+        padding-top:50px;
+}
+.partie15 {
+    display:flex;
+    flex-direction:column;
+    padding-left:350px;
+}
+    /* Septième Parties */
+.section7 {
     background-image:url("image/fond8.png");
+    width:100%;
+    height:600px;
+    color:white;
+}
+.partie18 {
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+    padding-left:150px;
+    padding-top:50px;
+    font-size:15px;
+}
+.titre7 {
+        padding-bottom:60px;
+}
+.Paragraphe3 {
+        padding-bottom:25px;
+}
+.promotion {
+        padding-bottom:25px;
+}
+.partie19 {
+        padding-top:50px;
+}
+.lientémoignages {
+        text-decoration:none;
+        color:white;
+        border:2px solid;
+        padding:10px 25px 10px 25px;
+}
+/* Huitième Parties */
+.section8 {
+    background-image:url("image/fond9.png");
     width:100%;
     height:605px;
 }
-
-.partie{
-    background-image:url("image/fond9.png");
-    width:100%;
-    height:800px;
+.titre8 {
+        padding-bottom:60px;
+        padding-top:50px;
+        color:white;
+        padding-left:250px;
+}
+.partie20 {
+        display:flex;
+        flex-direction:column;
+        padding-left:250px;
 }
 
-.partie11 {
+.partie21 {
+        flex-direction:row;
+        padding-bottom:50px;
+}
+.partie22 {
+        flex-direction:row;
+        padding-bottom:50px;
+}
+.partie23 {
+        flex-direction:row;
+        padding-bottom:50px;
+}
+.partie24 {
+        padding-bottom:50px;
+}
+
+/* Neuvième Paries */
+.section9 {
     background-image:url("image/fond2.png");
     width:100%;
     height:250px;
-
 }
-.LogoOnline {
-   width:380px;
-   height:80px;
-}
-
-.LogoAformac {
-    width:380px;
-    height:80px;
-
-}
-
-.LogoAccessCode {
-    width:380px;
-    height:80px;
-
-}
-.LogoAccessRobotique {
-
-    width:380px;
-    height:80px;
+.partie25 {
+    display:flex;
+    flex-direction:row;
+    padding-left:60px;
+    padding-top:25px;
 }
